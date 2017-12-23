@@ -777,7 +777,7 @@ width: 22.5px;
 		</div>
 		</div>
 		
-		<div class="piano-keys" id="E5" value="play" onclick="E3()"><p class="backward">C</p>
+		<div class="piano-keys" id="C5" value="play" onclick="E3()"><p class="backward">C</p>
 		
 		<div class="black-keys black-keys-left D3sharp" value="play" onclick="E3#()">
 		</div>
@@ -789,27 +789,27 @@ width: 22.5px;
 		<p class="backward">B</p>
 		<div class="black-keys black-keys-right F3sharp"></div>
 		</div>
-		<div class="piano-keys" id="B3" value="play" onclick="G3()">
+		<div class="piano-keys" id="A4" value="play" onclick="G3()">
 		<div class="black-keys black-keys-left F3sharp">
 		</div>
 
 		<p class="backward">A</p>
 		<div class="black-keys black-keys-right G3sharp"></div>
 		</div>
-		<div class="piano-keys" id="A4">
+		<div class="piano-keys" id="G4">
 		<div class="black-keys black-keys-left G3sharp">
 		</div>
 
 		<p class="backward">G</p>
 		<div class="black-keys black-keys-right A3sharp" value="play" onclick="C3#()"></div>
 		</div>
-		<div class="piano-keys" id="B3" value="play" onclick="B3()">
+		<div class="piano-keys" id="F4" value="play" onclick="B3()">
 		<div class="black-keys black-keys-left A3sharp" value="play" onclick="C3#()">
 		</div>
 
 		<p class="backward">F</p>
 		</div>
-		<div class="piano-keys" id="C4" value="play" onclick="C4()">
+		<div class="piano-keys" id="E4" value="play" onclick="E4()">
 		
 			<p class="backward">E</p>
 		<div class="black-keys black-keys-right C4sharp" value="play" onclick="C4sharp()"></div>
@@ -1259,7 +1259,7 @@ $("html").keydown(function(event){
 
 
 $("html").keydown(function(event){
-		if(event.which === 87) {
+		if(event.which === 71) {
 		
 		 
 		 
@@ -1284,7 +1284,7 @@ $("html").keydown(function(event){
 		
 		
 		
-		else if(event.which === 75){
+		else if(event.which === 70){
 		
 			$("#D4").css('background', 'steelblue');
 			$("#g").css('background', 'steelblue');
@@ -1295,7 +1295,7 @@ $("html").keydown(function(event){
 			soundD4.play();
 		}
 		
-		else if(event.which === 76){
+		else if(event.which === 68){
 		
 			$("#E4").css('background', 'steelblue');
 			$("#b").css(whitenotesColorKeyDown);
@@ -1307,7 +1307,7 @@ $("html").keydown(function(event){
 			soundE4.play();
 		}
 		
-		else if(event.which === 186){
+		else if(event.which === 83){
 			
 			$("#F4").css('background', 'steelblue');
 			$("#h").css(whitenotesColorKeyDown);
@@ -1322,7 +1322,7 @@ $("html").keydown(function(event){
 			soundF4.play();
 		}
 		
-		else if(event.which === 222){
+		else if(event.which === 65){
 			$("#G4").css('background', 'steelblue');
 			$("#n").css(whitenotesColorKeyDown);
 			
@@ -1405,7 +1405,7 @@ $("html").keydown(function(event){
 // when release key
 
 	$("html").keyup(function(event){
-		if(event.which === 87) {
+		if(event.which === 71) {
 		$("#C4").css('background', 'rgba(200,200,200, 0.8)');
 		$("#v").css('background', 'rgba(200,200,200, 0.8)');
 			
@@ -1416,7 +1416,7 @@ $("html").keydown(function(event){
 			$("#C4key").text("");
 		}
 		
-		else if(event.which === 75){
+		else if(event.which === 70){
 			$("#D4").css('background-color', 'rgba(200,200,200, 0.8)');
 			$("#g").css('background-color', 'rgba(200,200,200, 0.8)');
 			$("#solfege-D4").css('background-color', 'rgba(10,10,10, 0)');
@@ -1425,7 +1425,7 @@ $("html").keydown(function(event){
 		
 		}
 		
-		else if(event.which === 76){
+		else if(event.which === 68){
 		
 			$("#E4").css('background', 'rgba(200,200,200, 0.8)');
 			$("#b").css('background', 'rgba(200,200,200, 0.8)');
@@ -1438,14 +1438,14 @@ $("html").keydown(function(event){
 		
 		}
 		
-		else if(event.which === 186){
+		else if(event.which === 83){
 			$("#F4").css('background', 'rgba(200,200,200, 0.8)');
 			$("#h").css('background', 'rgba(200,200,200, 0.8)');
 			$("#solfege-F4").css('background-color', 'rgba(10,10,10, 0)');
 			$("#horizontal-staff-F-bottom-note").css('background-color', 'rgba(30, 30, 30 ,0)');
 		}
 		
-		else if(event.which === 222){
+		else if(event.which === 65){
 			$("#G4").css('background', 'rgba(200,200,200, 0.8)');
 			$("#n").css('background', 'rgba(200,200,200, 0.8)');
 			$("#solfege-G4").css('background-color', 'rgba(10,10,10, 0)');
@@ -1658,7 +1658,7 @@ $("html").keyup(function(event){
 		
 	
 $("html").keydown(function(event){
-		if(event.which === 65) {
+		if(event.which === an) {
 		 
 	
 			soundC3sharp.play();
@@ -1670,7 +1670,7 @@ $("html").keydown(function(event){
 			
 			}		
 			
-		else if(event.which === 83) {
+		else if(event.which === an) {
 		
 		 
 			soundD3sharp.play();
@@ -1681,7 +1681,7 @@ $("html").keydown(function(event){
 			
 			}		
 			
-		else if(event.which === 70) {
+		else if(event.which === an) {
 		
 		 
 			soundF3sharp.play();
@@ -1692,7 +1692,7 @@ $("html").keydown(function(event){
 			
 			}	
 
-		else if(event.which === 71) {
+		else if(event.which === 201) {
 		
 		 
 			soundG3sharp.play();
@@ -1727,7 +1727,7 @@ $("html").keydown(function(event){
 		
 		
 $("html").keyup(function(event){
-		if(event.which === 65) {
+		if(event.which === aa) {
 		$(".C3sharp").css('background', 'rgba(10,10,10, 1)');
 			
 		<!--  $("#solfege-C3").css('background-color', 'rgba(10,10,10, 0)');	 !-->
@@ -1738,7 +1738,7 @@ $("html").keyup(function(event){
 		
 		
 			
-		else if(event.which === 83) {
+		else if(event.which === an) {
 		
 		 
 			
@@ -1749,7 +1749,7 @@ $("html").keyup(function(event){
 			
 			}		
 			
-		else if(event.which === 70) {
+		else if(event.which === an) {
 		
 		 
 			soundF3sharp.play();
@@ -1760,7 +1760,7 @@ $("html").keyup(function(event){
 			
 			}	
 
-		else if(event.which === 71) {
+		else if(event.which === 201) {
 		
 		 
 			soundG3sharp.play();
